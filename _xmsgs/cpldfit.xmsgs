@@ -8,5 +8,32 @@
 <msg type="warning" file="Cpld" num="0" delta="new" >Unable to retrieve the path to the iSE Project Repository. Will use the default filename of &apos;<arg fmt="%s" index="1">MBCx.ise</arg>&apos;.
 </msg>
 
+<msg type="info" file="Cpld" num="0" delta="new" >Inferring BUFG constraint for signal &apos;<arg fmt="%s" index="1">not_wr</arg>&apos; based upon the LOC constraint &apos;<arg fmt="%s" index="2">P7</arg>&apos;. It is recommended that you declare this BUFG explicitedly in your design. Note that for certain device families the output of a BUFG constraint can not drive a gated clock, and the BUFG constraint will be ignored.
+</msg>
+
+<msg type="warning" file="Cpld" num="1239" delta="new" >The global <arg fmt="%s" index="1">clock</arg> designation (BUFG) on signal &apos;<arg fmt="%s" index="2">not_wr_IBUF</arg>&apos; is ignored. Most likely the signal is gated and therefore cannot be used as a global control signal.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="new" >&apos;<arg fmt="%s" index="1">not_ram_cs</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P30</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">not_ram_cs</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="new" >&apos;<arg fmt="%s" index="1">rom_addr&lt;14&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P31</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">rom_addr&lt;14&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="new" >&apos;<arg fmt="%s" index="1">rom_addr&lt;15&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P32</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">rom_addr&lt;15&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="new" >&apos;<arg fmt="%s" index="1">addr&lt;15&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P16</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">addr&lt;15&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="new" >&apos;<arg fmt="%s" index="1">data&lt;3&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P21</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">data&lt;3&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="new" >&apos;<arg fmt="%s" index="1">data&lt;5&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P23</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">data&lt;5&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="868" delta="new" >Cannot fit the design into any of the specified devices with the selected implementation options.
+</msg>
+
 </messages>
 
