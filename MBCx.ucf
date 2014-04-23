@@ -1,43 +1,87 @@
 # control signals
-NET "not_reset"		LOC=	"P29";
-NET "not_cs"			LOC= 	"P8";
-NET "not_wr"			LOC= 	"P7";
-NET "not_ram_cs"		LOC= 	"P30";
+NET "not_reset"		LOC=	"P35";
+NET "not_cs"			LOC= 	"P14";
+NET "not_wr"			LOC= 	"P13";
+NET "not_ram_cs"		LOC= 	"P36";
 
 # address pins
-NET "addr(12)"			LOC= 	"P12";
-NET "addr(13)"			LOC= 	"P13";
-NET "addr(14)"			LOC= 	"P14";
-NET "addr(15)"			LOC= 	"P16";
+NET "addr(12)"			LOC= 	"P18";
+NET "addr(13)"			LOC= 	"P19";
+NET "addr(14)"			LOC= 	"P20";
+NET "addr(15)"			LOC= 	"P7";
 
 # data pins
-NET "data(0)"			LOC= 	"P18";
-NET "data(1)"			LOC= 	"P19";
-NET "data(2)"			LOC= 	"P20";
-NET "data(3)"			LOC= 	"P21";
-NET "data(4)"			LOC= 	"P22";
-NET "data(5)"			LOC= 	"P23";
-NET "data(6)"			LOC= 	"P27";
-NET "data(7)"			LOC= 	"P28";
+NET "data(0)"			LOC= 	"P24";
+NET "data(1)"			LOC= 	"P25";
+NET "data(2)"			LOC= 	"P26";
+NET "data(3)"			LOC= 	"P27";
+NET "data(4)"			LOC= 	"P28";
+NET "data(5)"			LOC= 	"P29";
+NET "data(6)"			LOC= 	"P33";
+NET "data(7)"			LOC= 	"P34";
 
 # rom bank pins
-NET "rom_addr(14)"	LOC= 	"P31";
-NET "rom_addr(15)"	LOC= 	"P32";
-NET "rom_addr(16)"	LOC= 	"P33";
-NET "rom_addr(17)"	LOC= 	"P34";
-NET "rom_addr(18)"	LOC= 	"P36";
-NET "rom_addr(19)"	LOC= 	"P37";
-NET "rom_addr(20)"	LOC= 	"P38";
-NET "rom_addr(21)"	LOC= 	"P39";
-NET "rom_addr(22)"	LOC= 	"P40";
+NET "rom_addr(14)"	LOC= 	"P37";
+NET "rom_addr(15)"	LOC= 	"P4";
+NET "rom_addr(16)"	LOC= 	"P39";
+NET "rom_addr(17)"	LOC= 	"P40";
+NET "rom_addr(18)"	LOC= 	"P42";
+NET "rom_addr(19)"	LOC= 	"P43";
+NET "rom_addr(20)"	LOC= 	"P44";
+NET "rom_addr(21)"	LOC= 	"P1";
+NET "rom_addr(22)"	LOC= 	"P2";
 
 # ram bank pins
-NET "ram_addr(13)"	LOC=	"P6";
-NET "ram_addr(14)"	LOC=	"P5";
-NET "ram_addr(15)"	LOC=	"P3";
-NET "ram_addr(16)"	LOC=	"P2";
+NET "ram_addr(13)"	LOC=	"P12";
+NET "ram_addr(14)"	LOC=	"P11";
+NET "ram_addr(15)"	LOC=	"P9";
+NET "ram_addr(16)"	LOC=	"P8";
 
 # LEDs
 
-NET "led_ctrl"			LOC=	"P43";
-
+NET "led_ctrl"			LOC=	"P3";
+#
+#NET "v1"		LOC=	"P1";
+#NET "v2"		LOC=	"P2";
+#NET "v3"		LOC=	"P3";
+#NET "v4"		LOC=	"P4";
+#NET "v5"		LOC=	"P5";
+#NET "v6"		LOC=	"P6";
+#NET "v7"		LOC=	"P7";
+#NET "v8"		LOC=	"P8";
+#NET "v9"		LOC=	"P9";
+##NET "v10"		LOC=	"P10";#GND
+#NET "v11"		LOC=	"P11";
+#NET "v12"		LOC=	"P12";
+#NET "v13"		LOC=	"P13";#Vccio
+#NET "v14"		LOC=	"P14";
+##NET "v15"		LOC=	"P15";#TDI
+##NET "v16"		LOC=	"P16";#TMS
+##NET "v17"		LOC=	"P17";#TCK
+#NET "v18"		LOC=	"P18";
+#NET "v19"		LOC=	"P19";
+#NET "v20"		LOC=	"P20";
+##NET "v21"		LOC=	"P21";#Vcc
+#NET "v22"		LOC=	"P22";
+##NET "v23"		LOC=	"P23";#GND
+#NET "v24"		LOC=	"P24";
+#NET "v25"		LOC=	"P25";
+#NET "v26"		LOC=	"P26";
+#NET "v27"		LOC=	"P27";
+#NET "v28"		LOC=	"P28";
+#NET "v29"		LOC=	"P29";
+##NET "v30"		LOC=	"P30";#TDO
+##NET "v31"		LOC=	"P31";#GND
+##NET "v32"		LOC=	"P32";#Vccio
+#NET "v33"		LOC=	"P33";
+#NET "v34"		LOC=	"P34";
+#NET "v35"		LOC=	"P35";
+#NET "v36"		LOC=	"P36";
+#NET "v37"		LOC=	"P37";
+#NET "v38"		LOC=	"P38";
+#NET "v39"		LOC=	"P39";
+#NET "v40"		LOC=	"P40";
+##NET "v41"		LOC=	"P41";#Vaux
+#NET "v42"		LOC=	"P42";
+#NET "v43"		LOC=	"P43";
+#NET "v44"		LOC=	"P44";
